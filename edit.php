@@ -1,5 +1,5 @@
 <?php
-include '../config/conect.php';
+include 'conect.php';
 
 $row = [];
 

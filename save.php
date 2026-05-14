@@ -27,7 +27,7 @@
 
 <?php
 
-include '../config/conect.php';
+include 'conect.php';
 
 $title = $_POST['title'];
 $description = $_POST['description'];

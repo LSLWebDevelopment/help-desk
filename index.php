@@ -119,7 +119,7 @@ Nome: Alice Thyssen
 
             <?php
 
-            include 'config/conect.php';
+            include 'conect.php';
 
             // Base query
             $sql = "SELECT * FROM chamados";
