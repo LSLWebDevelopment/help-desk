@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Chamados</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body class="bg-light">
+
+<div class="container py-5">
+
+    <div class="row justify-content-center">
+
+        <div class="col-lg-8">
+
+            <div class="card shadow border-0">
+
+                <div class="card-header bg-primary text-white">
+                    <h2 class="mb-0">Cadastro de Chamados</h2>
+                </div>
+
+                <div class="card-body">
+
+                    <form action="save.php" method="POST">
+
+                        <div class="mb-3">
+
+                            <label for="title" class="form-label fw-semibold">
+                                Título
+                            </label>
+
+                            <input 
+                                type="text"
+                                class="form-control"
+                                name="title"
+                                id="title"
+                                placeholder="Digite o título do chamado"
+                                required
+                            >
+
+                        </div>
+
+                        <div class="mb-3">
+
+                            <label for="description" class="form-label fw-semibold">
+                                Descrição
+                            </label>
+
+                            <textarea 
+                                class="form-control"
+                                name="description"
+                                id="description"
+                                rows="5"
+                                placeholder="Descreva o problema..."
+                                required
+                            ></textarea>
+
+                        </div>
+
+                        <div class="row">
+
+                            <div class="col-md-6 mb-3">
+
+                                <label for="priority" class="form-label fw-semibold">
+                                    Prioridade
+                                </label>
+
+                                <select 
+                                    class="form-select"
+                                    name="priority"
+                                    id="priority"
+                                >
+
+                                    <option value="baixa" selected>
+                                        Baixa
+                                    </option>
+
+                                    <option value="media">
+                                        Média
+                                    </option>
+
+                                    <option value="alta">
+                                        Alta
+                                    </option>
+
+                                </select>
+
+                            </div>
+
+                            <div class="col-md-6 mb-3">
+
+                                <label for="status" class="form-label fw-semibold">
+                                    Status
+                                </label>
+
+                                <select 
+                                    class="form-select"
+                                    name="status"
+                                    id="status"
+                                >
+
+                                    <option value="aberto" selected>
+                                        Aberto
+                                    </option>
+
+                                    <option value="andamento">
+                                        Andamento
+                                    </option>
+
+                                    <option value="fechado">
+                                        Fechado
+                                    </option>
+
+                                </select>
+
+                            </div>
+
+                        </div>
+
+                        <div class="d-flex gap-2 mt-4">
+
+                            <button type="submit" class="btn btn-primary">
+                                Salvar Chamado
+                            </button>
+
+                            <a href="index.php" class="btn btn-secondary">
+                                Voltar
+                            </a>
+
+                        </div>
+
+                    </form>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
