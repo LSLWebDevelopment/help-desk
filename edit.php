@@ -218,7 +218,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
                                 Salvar Alterações
                             </button>
 
-                            <a href="index.php" class="btn btn-secondary">
+                            <a href="index.html" class="btn btn-secondary">
                                 Cancelar
                             </a>
 

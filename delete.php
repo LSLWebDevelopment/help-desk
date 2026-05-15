@@ -149,7 +149,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'GET' && isset($_GET['id'])) {
                     Confirmar
                 </button>
 
-                <a href='index.php' class='btn btn-secondary'>
+                <a href='list.php' class='btn btn-secondary'>
                     Voltar
                 </a>
 
@@ -197,7 +197,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
                 Exclusão cancelada.
             </div>
 
-            <a href='index.php' class='btn btn-secondary'>
+            <a href='list.php' class='btn btn-secondary'>
                 Voltar
             </a>
         ";
