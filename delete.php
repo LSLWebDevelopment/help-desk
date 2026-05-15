@@ -176,7 +176,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
                     Registro deletado com sucesso.
                 </div>
 
-                <a href='index.php' class='btn btn-primary'>
+                <a href='list.php' class='btn btn-primary'>
                     Voltar para lista
                 </a>
             ";

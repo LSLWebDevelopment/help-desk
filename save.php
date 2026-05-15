@@ -50,7 +50,7 @@ if ($conn->query($sql) === TRUE) {
 
         <div class='d-flex gap-2 mt-4'>
 
-            <a href='index.php' class='btn btn-primary'>
+            <a href='list.php' class='btn btn-primary'>
                 Ver Chamados
             </a>
 

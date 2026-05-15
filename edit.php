@@ -41,7 +41,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
             $row = $result->fetch_assoc();
         }
 
-        header("refresh:2;url=index.php");
+        header("refresh:2;url=list.php");
 
     } else {
 
